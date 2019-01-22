@@ -1,4 +1,4 @@
-package ticTacToe;
+package tddBase;
 
 public class Main {
 

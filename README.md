@@ -1,10 +1,20 @@
 # TDD Workshop
 
-## Tic Tac Toe
+## TDD Base
 
-Tic-tac-toe (also known as noughts and crosses or Xs and Os) is a game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.
+Following the ideas from the excellent book on "understanding the 4 rules of simple design", by [Corey Haines](https://leanpub.com/4rulesofsimpledesign), we would play different setups to get a better in-depth feeling of how TDD works.
 
-More information on [wikipedia](https://en.wikipedia.org/wiki/Tic-tac-toe)
+1. **Mute ping-pong pairing**
+
+One member of the pair writes the unit tests, the other mem- ber writes the code to turn those tests green. You can think of the roles as “test redder” and “test greener.” This is standard. However, the only communication allowed between partners is through the tests and the code. And no cheating by putting a bunch of comments!
+
+2. **Find the loophole**
+
+Generally coupled with ping-pong pairing, one pair writes the tests, the other pair tries to get those tests passing. The catch is that the pair working to get the tests passing writes the wrong code. How long can you go before the tests force you into a “correct” algorithm. Here’s the catch, though: you must write production-level code, think of it as code you would show a prospective employer.
+
+## Technical problem fizz-buzz
+
+>"Write a program that prints the numbers from 1 to 100. But for multiples of three return “Fizz” instead of the number and for the multiples of five return “Buzz”. For numbers which are multiples of both three and five return “FizzBuzz”."
 
 ## Tools
 
